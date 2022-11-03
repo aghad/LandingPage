@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.left-links {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0px;
+    
+}
+
+.right-links {
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.first-image {
+    background-color: #64758d;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+
+}
+
+.combine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.large-text{
+    font-size: 32px;
+    flex-wrap: wrap;
+    width: 350px;
+    color: white;
+    margin: 5px;
+}
+
+.smaller-text {
+    font-size: 12px;
+    flex-wrap: wrap;
+    width: 300px;
+    color: lightgray;
+    margin: 5px;
+}
+
+.button {
+    background-color: #3a9eba; /* Blue */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  img.placeholder {
+    flex-wrap: nowrap;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+  }
+
+  .second-header {
+    display: flex;
+    align-self: center;
+    border: solid;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: solid;
+}
+
+.second-layer {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    justify-content: space-evenly;
+    height: 350px;
+}
+
+.third-block {
+    background-color: #227af5;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inspiring-quote {
+    flex-wrap: wrap;
+    width: 400px;
+    font-size: larger;
+    font-style: italic;
+}
+
+.author-quote {
+    display: flex;
+   justify-content: flex-end;
+   padding-left: 250px;
+   font-size: small;
+}
+
+.fourth-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.fifth-block{
+    background-color: #227af5;
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.last-paragraph {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.last-paragraph2 {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 50px;
+    align-items: center;
+    font-size: small;
+    color: white;
+}
